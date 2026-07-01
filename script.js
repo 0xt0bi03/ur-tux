@@ -72,6 +72,11 @@ startBtn.addEventListener("click", () => {
 
     showQuestion();
 
+    quiz.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+
 });
 
 // =========================================================
@@ -332,6 +337,11 @@ function displayResult() {
     result.classList.remove("hidden");
 
     result.classList.add("show");
+
+    result.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
 
     const winner = getBestDistribution();
 
