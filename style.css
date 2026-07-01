@@ -1028,9 +1028,16 @@ footer{
 }
 
 footer p{
-
     font-size:.95rem;
+}
 
+footer a{
+    color:var(--primary);
+    transition:var(--transition);
+}
+
+footer a:hover{
+    color:var(--secondary);
 }
 
 /* ------------------------------
