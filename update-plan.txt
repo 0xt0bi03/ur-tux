@@ -1,0 +1,5 @@
+features to add:
+
+1. to find a database of all available linux distros to suggest distro from.
+2. to introduce logo's and sample images during suggestion.
+
